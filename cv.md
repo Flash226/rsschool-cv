@@ -1,12 +1,10 @@
 # Yaroslav Nepiuk
 
 ### Junior Frontend Developer
----
 
 
 
 ## Contacts
----
 **Phone:** +38 067 8562802
 
 
@@ -21,13 +19,11 @@
 
 
 ## About Me
----
 I learn Front-End Development in RSSchool!
 
 
 
 ## Skills
----
 * HTML
 * CSS
 * SAAS
@@ -38,7 +34,6 @@ I learn Front-End Development in RSSchool!
 
 
 ### Code Examples
----
 **Peak array index KATA from CODEWARS:** Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
 ```
 function countSheeps(arrayOfSheep) {
@@ -53,19 +48,16 @@ function countSheeps(arrayOfSheep) {
 
 
 ### Experience
----
 Сoming soon…
 
 
 
 ### Education
----
 Сoming soon…
 
 
 
 ### Languages
----
 * Ukrainian - Native
 * English - A2
 * Russian - Intermediate
