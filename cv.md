@@ -33,7 +33,7 @@ I learn Front-End Development in RSSchool!
 
 
 
-### Code Examples
+## Code Examples
 **Peak array index KATA from CODEWARS:** Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
 ```
 function countSheeps(arrayOfSheep) {
@@ -47,17 +47,17 @@ function countSheeps(arrayOfSheep) {
 
 
 
-### Experience
+## Experience
 Сoming soon…
 
 
 
-### Education
+## Education
 Сoming soon…
 
 
 
-### Languages
+## Languages
 * Ukrainian - Native
 * English - A2
 * Russian - Intermediate
