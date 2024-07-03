@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Yaroslav Nepiuk</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="photo">
+          <img src="../rsschool-cv/assets/img/av3.jpg" alt="photo" class="ava">
+        </div>
+        <div class="title">
+          <h1>Yaroslav Nepiuk</h1>
+          <p>Frontend developer</p>
+        </div>
+      </header>
+      <main>
+        <aside>
+          <div class="triangle-block">
+            <div class="triangle"></div>
+          </div>
+          <div class="contacts">
+            <span>Contacts</span>
+            <div class="data">
+              <br>
+              <img src="../rsschool-cv/assets/img/mail.png" alt="mail" class="icon">
+              <a href="mailto:slavanepuk@gmail.com" class="email">slavanepuk@gmail.com</a>
+              <br>
+              <img
+                src="../rsschool-cv/assets/img/phone.png"
+                alt="phone"
+                class="icon"
+              ><a href="tel:+34643417185" class="phone">+34 643 417 185</a>
+              <br>
+              <img
+                src="../rsschool-cv/assets/img/location.png"
+                alt="location"
+                class="icon"
+              >CL Venerable Carabantes, 43003, Soria, Spain
+              <br>
+            </div>
+          </div>
+          <div class="education">
+            <span>Education</span>
+            <div class="container_education">
+              <div class="dot-line">
+                <div class="dot"></div>
+                <div class="line"></div>
+              </div>
+
+              <div class="educa">
+                <div class="data">
+                  <br>
+                  RS School course
+                  <br>
+                  Angular
+                  <br>
+                  2023
+                </div>
+                <div class="data">
+                  <br>
+                  RS School course
+                  <br>
+                  Frontend / JS
+                  <br>
+                  2022-2023
+                </div>
+                <div class="data">
+                  <br>
+                  Ukrainian Agricultural Technical Institute
+                  <br>
+                  Economics
+                  <br>
+                  2001-2006
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills">
+            <span>Skills</span>
+            <ul class="list">
+              <li>HTML/CSS</li>
+              <li>SCSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Angular</li>
+              <li>Git</li>
+              <li>PHP</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div class="language">
+            <span>Language</span>
+            <ul class="list">
+              <li>Ukrainian - native</li>
+              <li>Russian - B2</li>
+              <li>English - A2</li>
+              <li>Espanol - A2</li>
+            </ul>
+          </div>
+        </aside>
+        <div class="resume">
+          <nav>
+            <ul>
+              <li><a href="#section1">Resume</a></li>
+              <li><a href="#section2">Expirience</a></li>
+              <li><a href="#section3">Code exemples</a></li>
+              <li><a href="#section4">Initial projects</a></li>
+            </ul>
+          </nav>
+          <section class="description">
+            <h2 id="section1">Resume (About me)</h2>
+            <hr>
+            I'm a switcher who is changing his life and field of activity for
+            web-development. I wish to be a full-stack JavaScript developer.
+            <br>
+            Junior Web Developer with 1 year of experience in JavaScript, CSS,
+            and HTML, and 6 months of experience in PHP. Skilled in developing
+            and maintaining responsive web applications, enhancing user
+            experience, and troubleshooting technical issues.
+            <br>
+            My main goal is to help people and their businesses to resolve
+            problems on the web.
+          </section>
+          <section class="experience">
+            <h2 id="section2">Expirience</h2>
+            <hr>
+            <p class="position">Freelance Web Developer</p>
+            <br>
+            <p>June 2023 – Present</p>
+            <br>
+            Developed and maintained responsive web applications using
+            JavaScript, CSS, HTML, and PHP. Enhanced user interfaces and site
+            interaction experiences. Troubleshot and resolved technical issues
+            for various clients.
+          </section>
+
+          <section class="examples">
+            <h2 id="section3">Code exemples</h2>
+            <hr>
+
+            Peak array index KATA from CODEWARS: Consider an array/list of sheep
+            where some sheep may be missing from their place. We need a function
+            that counts the number of sheep present in the array (true means
+            present).
+            <div class="code_exemples">
+              <code>
+                <span class="keyword">function</span> <span class="function">countSheeps</span>(<span class="variable">arrayOfSheep</span>) {
+                  <span class="keyword">let</span> <span class="variable">count</span> = <span class="number">0</span>;
+                    <span class="keyword">for</span> (<span class="keyword">let</span> <span class="variable">i</span> = <span class="number">0</span>; <span class="variable">i</span> &lt; <span class="variable">arrayOfSheep</span>.length; <span class="variable">i</span>++) {
+                      <span class="keyword">if</span> (<span class="variable">arrayOfSheep</span>[<span class="variable">i</span>]) <span class="variable">count</span> += <span class="number">1</span>;
+                    }
+                      <span class="keyword">return</span> <span class="variable">count</span>;
+                }
+              </code>
+            </div>
+          </section>
+
+          <section class="projects">
+            <h2 id="section4">Initial projects</h2>
+            <hr>
+            My initial projects from past courses:
+            <ul>
+              <li>
+                <a
+                  href="https://flash226.github.io/cssBayan/cssBayan/"
+                  target="_blank"
+                  >CSS Bayan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://online-store-last.netlify.app/#/"
+                  target="_blank"
+                  >Online store</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://66840eb672c38872130e63ca--teal-malasada-6ecb4e.netlify.app/"
+                  target="_blank"
+                  >Puzzle game</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://668410b783973786e9b6e315--loquacious-longma-08a205.netlify.app/"
+                  target="_blank"
+                  >SongBird game</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <div class="footer_block1">
+          <a href="https://github.com/Flash226" target="_blank">
+            <img
+              src="../rsschool-cv/assets/img/github.svg"
+              alt="github"
+              class="footer_github"
+            >
+          </a>
+        </div>
+        <div class="footer_block2">© 2024</div>
+        <div class="footer_block3">
+          <a href="https://rs.school/courses/javascript-ru" target="_blank"
+            ><img
+              src="../rsschool-cv/assets/img/rsschool.svg"
+              alt="rsschool"
+              class="footer_rs"
+          ></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
