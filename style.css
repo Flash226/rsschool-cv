@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  min-width: 600px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+body {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+header {
+  height: 180px;
+  background-color: #28292f;
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.photo {
+  text-align: center;
+  width: 30%;
+}
+
+.ava {
+  border-radius: 50%;
+  width: 130px;
+}
+
+.title {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+aside {
+  flex: 0 0 30%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #ebe1d7;
+  color: #28292f;
+}
+
+.triangle-block {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-top: -0.3px;
+  overflow: hidden;
+}
+
+.triangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #28292f;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+.contacts,
+.education,
+.skills,
+.language {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+span {
+  font-size: 18px;
+}
+
+.icon {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.email {
+  color: #28292f;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.phone {
+  color: #28292f;
+  text-decoration: none;
+}
+
+.email:hover,
+.phone:hover {
+  color: #86899e;
+  transition: 1s;
+}
+
+.container_education {
+  display: flex;
+  height: 100%;
+}
+
+.dot-line {
+  position: relative;
+  width: 2px;
+  height: 100%;
+  padding: 0 9px;
+}
+
+.dot {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #28292f;
+  border-radius: 50%;
+}
+
+.line {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: calc(100% - 40px);
+  background-color: #28292f;
+}
+
+.educa {
+  padding-left: 7px;
+}
+
+.list {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.list li {
+  margin-bottom: 15px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #28292f;
+}
+
+nav a:hover {
+  color: #86899e;
+  transition: 1s;
+}
+
+.resume {
+  width: 100%;
+  padding: 20px 30px 20px 30px;
+  color: #28292f;
+  font-size: 12px;
+  background-color: aliceblue;
+}
+
+.description {
+  margin-top: 35px;
+}
+
+hr {
+  height: 2px;
+  background-color: #28292f;
+  border: none;
+  margin: 3px 0 7px 0;
+}
+
+.experience {
+  margin-top: 24px;
+}
+
+.position {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.examples {
+  margin-top: 16px;
+}
+
+.code_exemples {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+  overflow-x: auto;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.code_exemples code {
+  display: block;
+  white-space: pre-wrap;
+}
+
+.code_exemples .keyword {
+  color: #d14;
+  font-size: inherit;
+}
+.code_exemples .function {
+  color: #170;
+  font-size: inherit;
+}
+.code_exemples .variable {
+  color: #00f;
+  font-size: inherit;
+}
+.code_exemples .number {
+  color: #a31515;
+  font-size: inherit;
+}
+
+.projects ul {
+  padding: 10px 0 0 15px;
+}
+
+.projects li {
+  margin-bottom: 5px;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #28292f;
+  font-size: 13px;
+}
+
+.projects a:hover {
+  color: #86899e;
+  transition: 0.6s;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #28292f;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 15px;
+}
+
+.footer_github {
+  height: 15px;
+}
+
+.footer_rs {
+  height: 15px;
+}
