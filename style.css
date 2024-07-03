@@ -60,3 +60,28 @@ h1 {
   margin-bottom: 15px;
   letter-spacing: 2px;
 }
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #28292f;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 0 15px;
+}
+
+.footer_github {
+  height: 15px;
+}
+
+
+.footer_rs {
+  height: 15px;
+}
